@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:PersonaTarot"
+             x:Class="PersonaTarot.MainPage" >
+
+
+    <AbsoluteLayout VerticalOptions="FillAndExpand"  HorizontalOptions="FillAndExpand">
+
+        <Image AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="0,0,1,1" Source="bg.png" Aspect="AspectFill"/>
+
+
+        <Button AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="0,1,1,1" Text="Select Spread" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Clicked="OnSpreadClicked"></Button>
+        <Button AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="0,2,1,1" Text="Options" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Clicked="OnSettingsClicked"></Button>
+
+    </AbsoluteLayout>
+</ContentPage>
